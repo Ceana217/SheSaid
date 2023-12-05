@@ -7,7 +7,7 @@ interface PageContentLayoutProps {
 
 // Assumes array of two children are passed
 const PageContentLayout: React.FC<PageContentLayoutProps> = ({
-  children,
+
   maxWidth,
 }) => {
   return (
